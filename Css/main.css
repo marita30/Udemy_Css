@@ -1,4 +1,7 @@
-section {
+
+/* Para leer los id */
+#product-overview{
+
     background-color: pink;
     
 }
@@ -10,3 +13,10 @@ h1 {
     font-family: sans-serif;
 
 }
+
+/* Para leer las classes que esta en el segundo h1 del html */
+.section-title{
+    color: black;
+    
+}
+
