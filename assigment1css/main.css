@@ -1,0 +1,9 @@
+
+/* Agregando color y fontFamily al h1 */
+#assignment-instructions {
+
+    color: hotpink;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    
+}
