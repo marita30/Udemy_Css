@@ -5,7 +5,7 @@ body {
 }
 
 /* Para leer los id */
-#product-overview{
+#product-overview {
 
     background-color: pink;
     
@@ -14,12 +14,15 @@ body {
 /* Para leer las classes que esta en el segundo h1 del html */
 .section-title{
     color: black;
+    /* Singnifica que herada el estilo que letra que se ha puesto en el body */
+    /* font-family: inherit; */
     
 }
 
-h1 {
+/* Combinators multiples selectors */
+#product-overview h1 {
     text-align: center;
-    color: white;
+    color: black;
     text-justify: auto;
     font-family: sans-serif;
 
