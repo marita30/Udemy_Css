@@ -1,4 +1,9 @@
 
+/* body */
+body {
+    font-family: 'Montserrat', sans-serif;;
+}
+
 /* Para leer los id */
 #product-overview{
 
@@ -19,6 +24,8 @@ h1 {
     font-family: sans-serif;
 
 }
+
+
 
 
 
