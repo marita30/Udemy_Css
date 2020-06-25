@@ -24,3 +24,8 @@ code {
     color: purple;
 }
 
+/* Combinators, ejercicio#6 , toma todos los <li> menos el primero*/
+li + li {
+    background: pink;
+    color: blueviolet;
+}
