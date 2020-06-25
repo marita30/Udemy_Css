@@ -20,9 +20,9 @@ body {
     height: 528px;
     /* Relleno */
     padding: 10px; 
-    border: 5px purple solid; 
+    /* border: 5px purple solid;  */
     /* margen para dar espacio */
-    margin: 10px; 
+   /*  margin: 10px; */ 
     
 }
 
@@ -43,7 +43,13 @@ body {
 
 }
 
+/* classe de la etiqueta header */
+.main-header{
+    background-image: linear-gradient(to bottom right,#F761A1, #8C1BAB);
+    width: 100%;
+    padding: 8px;
+   
 
-
+}
 
 
