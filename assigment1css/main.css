@@ -29,3 +29,9 @@ li + li {
     background: pink;
     color: blueviolet;
 }
+
+/* Combinators child , ejercicio#7 toma todos los <li> que estan dentro de <ol>*/
+ol > li{
+    background: pink;
+    color: blueviolet;
+}
