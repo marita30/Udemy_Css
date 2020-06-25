@@ -1,4 +1,12 @@
 
+body {
+    font-family: sans-serif;
+}
+
+.highlighted-code {
+    color: green;
+}
+
 /* Agregando color y fontFamily al h1 */
 #assignment-instructions {
 
@@ -7,3 +15,10 @@
     text-align: center;
     
 }
+
+/* Aplicando estilos a todas las etiquetas <code> */
+code {
+    font-family: monospace;
+    color: purple;
+}
+
