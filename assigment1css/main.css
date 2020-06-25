@@ -3,11 +3,12 @@ body {
     font-family: sans-serif;
 }
 
+/* Poniendo de color verde solo el segundo <li>, ejercicio#3 */
 .highlighted-code {
     color: green;
 }
 
-/* Agregando color y fontFamily al h1 */
+/* Agregando color y fontFamily al h1 , ejercicio#1*/
 #assignment-instructions {
 
     color: hotpink;
@@ -16,7 +17,7 @@ body {
     
 }
 
-/* Aplicando estilos a todas las etiquetas <code> */
+/* Aplicando estilos a todas las etiquetas <code> , ejercicio#2 */
 code {
     font-family: monospace;
     color: purple;
