@@ -51,5 +51,8 @@ body {
    
 
 }
-
+/* Para los <li> */
+.main-nav__item{
+    display: inline-block;
+}
 
