@@ -8,6 +8,11 @@ body {
 #product-overview {
 
     background-color: pink;
+    /* Relleno */
+    padding: 20px;
+    border: 5px purple solid;
+    /* margen para dar espacio */
+    margin: 20px;
     
 }
 
