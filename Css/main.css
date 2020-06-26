@@ -93,6 +93,14 @@ body {
     color: black;
 }
 
+/* Pseudo elements para cuando pase el mouse */
+.main-nav__item a:hover{
+    color: #2D4F70;
+}
+.main-nav__item a:active {
+    color: #2D4F70;
+}
+
 
 
 
