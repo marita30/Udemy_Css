@@ -51,6 +51,26 @@ body {
    
 
 }
+
+/* Para poner en una sola linea la etiqueta <a> con la etiqueta <li>-- combinators */
+.main-header > div {
+
+    display: inline-block;
+}
+/* Para poner en una sola linea la etiqueta <a> con la etiqueta <li> */
+.main-nav {
+    display: inline-block;
+    text-align: right;
+    width: calc(100% - 49px);
+}
+
+/* Para reestablecer el relleno, margen y list-style(puntos de vi;etas) */
+.main-nav__items {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
 /* Para los <li> */
 .main-nav__item{
     display: inline-block;
