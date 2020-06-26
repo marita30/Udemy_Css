@@ -47,16 +47,29 @@ body {
     padding: 8px 16px;
 }
 
-/* combinators-- solo va agarrar el primer div del header */
+/* combinators-- solo va agarrar el primer div que contiene la etiqueta <a> del header */
 .main-header > div {
     display: inline-block;
+    /* Para alinear la etiqueta <a> con los <li> */
+    vertical-align: middle;
+}
+
+/* Agregando dise;o a la etiqueta <a> */
+.main-header__brand {
+    color: black;
+    /* Eliminando el sudbrayado que aperece en el texto */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
 }
 
 /* Para poner en una sola linea la etiqueta <a> con la etiqueta <li> */
 .main-nav {
     display: inline-block;
     text-align: right;
-    width: calc(100% - 74px);
+    width: calc(100% - 84px);
+    /* Para alinear la etiqueta <a> con los <li> */
+    vertical-align: middle;
 }
 
 /* Para reestablecer el relleno, margen y list-style(puntos de vi;etas) en el nav */
