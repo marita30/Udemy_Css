@@ -79,12 +79,21 @@ body {
     list-style: none;
 }
 
-/* Para los <li> */
+/* Para el <ul> */
 .main-nav__item {
     display: inline-block;
-    /* Para dr espacios entre los <li> */
+    /* Para margen(espacios) entre los <li> de izquierda a derecha, el primer valor se refiere a una parte superior e inferior y el segundo valor
+    es izquierdo y derecho*/
     margin: 0 16px;
 }
+
+/* Para darle dise;o a los <li> */
+.main-nav__item a {
+    text-decoration: none;
+    color: black;
+}
+
+
 
 
 
