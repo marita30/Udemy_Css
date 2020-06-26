@@ -2,12 +2,10 @@
 * {
     box-sizing: border-box;
 }
-
 /* body */
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
-    
 }
 
 /* Para leer los id */
@@ -26,9 +24,10 @@ body {
     
 }
 
+
 /* Para leer las classes que esta en el segundo h1 del html */
 .section-title{
-    color: black;
+    color: blue;
     /* Singnifica que herada el estilo que letra que se ha puesto en el body */
     /* font-family: inherit; */
     
@@ -36,9 +35,7 @@ body {
 
 /* Combinators multiples selectors */
 #product-overview h1 {
-    text-align: center;
     color: black;
-    text-justify: auto;
     font-family: sans-serif;
 
 }
@@ -47,24 +44,22 @@ body {
 .main-header{
     background-image: linear-gradient(to bottom right,#F761A1, #8C1BAB);
     width: 100%;
-    padding: 8px;
-   
-
+    padding: 8px 16px;
 }
 
-/* Para poner en una sola linea la etiqueta <a> con la etiqueta <li>-- combinators */
+/* combinators-- solo va agarrar el primer div del header */
 .main-header > div {
-
     display: inline-block;
 }
+
 /* Para poner en una sola linea la etiqueta <a> con la etiqueta <li> */
 .main-nav {
     display: inline-block;
     text-align: right;
-    width: calc(100% - 49px);
+    width: calc(100% - 74px);
 }
 
-/* Para reestablecer el relleno, margen y list-style(puntos de vi;etas) */
+/* Para reestablecer el relleno, margen y list-style(puntos de vi;etas) en el nav */
 .main-nav__items {
     margin: 0;
     padding: 0;
@@ -72,7 +67,20 @@ body {
 }
 
 /* Para los <li> */
-.main-nav__item{
+.main-nav__item {
     display: inline-block;
+    /* Para dr espacios entre los <li> */
+    margin: 0 16px;
 }
+
+
+
+
+
+
+
+
+
+
+
 
