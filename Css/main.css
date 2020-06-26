@@ -93,6 +93,12 @@ body {
     color: black;
 }
 
+/* .main-nav__item a::after {
+    /* para declarar un texto despues de cada <a> del nav 
+    content: " (link)";
+    color: red;
+} */
+
 /* Pseudo elements para cuando pase el mouse */
 .main-nav__item a:hover{
     color: #2D4F70;
@@ -101,6 +107,11 @@ body {
     color: #2D4F70;
 }
 
+/* Cambiar la primera letra del parrafo <p> usando pseuco elements */
+/* p::first-letter {
+    color:red;
+    font-size: 20px;
+} */
 
 
 
