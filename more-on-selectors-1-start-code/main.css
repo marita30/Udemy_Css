@@ -19,9 +19,14 @@ a.active{
     color: #521751;
 }
 
+/* Selector :not --> selecionara cualquier etiqueta que no tenga la clase active */
+a:not(.active) {
+    color: blue;
+}
+
 .main-section {
     height: 800px;
-    border: 1px solid #ccc !important;
+    border: 1px solid #ccc;
     padding: 16px;
 }
 
