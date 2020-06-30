@@ -11,7 +11,7 @@ body {
 /* Para leer los id */
 #product-overview {
 
-    background-color: pink;
+    background: url("freedom.jpg");
     /* Ancho */
     width: 100%;
     /* Alto */
