@@ -40,7 +40,7 @@ body {
 
 }
 
-/* classe de la etiqueta header */
+/* classe de la etiqueta header  para el nav*/
 .main-header{
     background-image: linear-gradient(to bottom right,#F761A1, #8C1BAB);
     width: 100%;
@@ -54,7 +54,7 @@ body {
     vertical-align: middle;
 }
 
-/* Agregando dise;o a la etiqueta <a> */
+/* Agregando dise;o a la etiqueta <a>  Uhost*/
 .main-header__brand {
     color: black;
     /* Eliminando el sudbrayado que aperece en el texto */
@@ -63,7 +63,7 @@ body {
     font-size: 22px;
 }
 
-/* Para poner en una sola linea la etiqueta <a> con la etiqueta <li> */
+/* Para poner en una sola linea la etiqueta <a> con la etiqueta <li>  en el nav*/
 .main-nav {
     display: inline-block;
     text-align: right;
@@ -79,7 +79,7 @@ body {
     list-style: none;
 }
 
-/* Para el <ul> */
+/* Para el <li> */
 .main-nav__item {
     display: inline-block;
     /* Para margen(espacios) entre los <li> de izquierda a derecha, el primer valor se refiere a una parte superior e inferior y el segundo valor
@@ -110,6 +110,22 @@ body {
     font-weight: bold;
      /* Agregar borde */
      border-bottom: 5px solid white;
+}
+
+/* Para el ultimo <li> Start Hosting */
+.main-nav__item--cta a{ 
+    color: white;
+    background-color: salmon;
+    /* 8px para a parte inferior e superior y 16px para la derecha y izquierda */
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+.main-nav__item--cta a:hover,
+.main-nav__item--cta a:active{
+    color: black;
+    background-color: blanchedalmond;
+    border: none;
 }
 /* Cambiar la primera letra del parrafo <p> usando pseuco elements */
 /* p::first-letter {
