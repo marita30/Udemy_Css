@@ -91,6 +91,10 @@ body {
 .main-nav__item a {
     text-decoration: none;
     color: black;
+    font-weight: bold;
+    /* Relleno */
+    padding: 3px 0;
+   
 }
 
 /* .main-nav__item a::after {
@@ -102,8 +106,10 @@ body {
 /* Pseudo elements para cuando pase el mouse */
 .main-nav__item a:hover,
 .main-nav__item a:active{
-    color: #2D4F70;
+    color: white;
     font-weight: bold;
+     /* Agregar borde */
+     border-bottom: 5px solid white;
 }
 /* Cambiar la primera letra del parrafo <p> usando pseuco elements */
 /* p::first-letter {
