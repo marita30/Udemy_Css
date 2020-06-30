@@ -19,3 +19,7 @@ a {
     border: 1px solid #ccc;
     padding: 16px;
 }
+
+.highlighted{
+    border: 2px solid #fa923f;
+}
