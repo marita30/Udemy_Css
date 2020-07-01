@@ -73,6 +73,16 @@ body {
     border-radius: 8px;
 }
 
+/*Para los <li> que estan en las <ul> de los <article>  */
+.plan__features{
+    list-style: none;
+    margin:0;
+    padding: 0;
+}
+.plan__features li{
+    margin:8px 0;
+}
+
 /* classe de la etiqueta header  para el nav*/
 .main-header{
     background-image: linear-gradient(to bottom right,#F761A1, #8C1BAB);
