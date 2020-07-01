@@ -64,6 +64,15 @@ body {
     box-shadow: 3px 3px 3px 3px rgb(0,0,0,0.5);
 }
 
+/* Para el h1 del segundo article (plans) */
+.plan__annotacion{
+    background-color: white;
+    color: salmon;
+    padding: 8px;
+    box-shadow: 3px 3px 3px 3px rgb(0,0,0,0.5);
+    border-radius: 8px;
+}
+
 /* classe de la etiqueta header  para el nav*/
 .main-header{
     background-image: linear-gradient(to bottom right,#F761A1, #8C1BAB);
