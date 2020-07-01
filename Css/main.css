@@ -27,7 +27,8 @@ body {
 
 /* Para leer las classes que esta en el segundo h1 del html */
 .section-title{
-    color: blue;
+    color: salmon;
+    text-align: center;
     /* Singnifica que herada el estilo que letra que se ha puesto en el body */
     /* font-family: inherit; */
     
@@ -38,6 +39,21 @@ body {
     color: black;
     font-family: sans-serif;
 
+}
+
+/* Para los <article> */
+.plan{
+    background-color: pink;
+    text-align: center;
+    /* Relleno */
+    padding: 16px;
+    /* Espacio entre los background */
+    margin: 10px;
+    /* Para que todos esten alineados  */
+    display: inline-block;
+    width: 30%;
+    /* Para alinear los background */
+    vertical-align: middle;
 }
 
 /* classe de la etiqueta header  para el nav*/
