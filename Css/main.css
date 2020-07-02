@@ -73,6 +73,18 @@ body {
     border-radius: 8px;
 }
 
+/* Para la classes que estan definidas en los <h1> de cada <article> */
+.plan__title{
+    color: salmon;
+}
+.plan__price{
+    color: grey;
+}
+/* Cambiar el color del title del  plan resaltado */
+.plan--highlighted .plan__title{
+    color: white;
+}
+
 /*Para los <li> que estan en las <ul> de los <article>  */
 .plan__features{
     list-style: none;
