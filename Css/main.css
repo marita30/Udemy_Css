@@ -110,6 +110,8 @@ body {
 
 
 
+
+
 /* Para lso botones de cada plans */
 .button{
     background-color: salmon;
@@ -147,6 +149,7 @@ body {
 
 
 
+
 /* Para la nueva section que tiene el id=key-features */
 #key-features{
     background-image: linear-gradient(to bottom right,#F761A1, #8C1BAB);
@@ -156,6 +159,39 @@ body {
 #key-features .section-title{
     color: white;
     margin: 32px;
+}
+/* Para los <ul> de la nueva section id+key-features */
+.key-feature__list{
+    /* Quitarle las viñetas que crea los <li> */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+/* Para los <li> que estan dentro del <ul> */
+.key-feature{
+    display: inline-block;
+    width: 30%;
+    /* Para que los textos esten alineados en la parte superior */
+    vertical-align: top;
+}
+/* Para los <div> de la class image , para hacer la figura de un circulo en cada <li>*/
+.key-feature__image{
+    background: #ffcede;
+    width: 128px;
+    height: 128px;
+    border: 2px solid grey;
+    border-radius: 50%;
+    /* Centrara el circulo */
+    margin: auto;
+}
+/* Para el diseño de los parrafos que estan dentro de los <li> */
+.key-feature__description{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
 }
 
 
