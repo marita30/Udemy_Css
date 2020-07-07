@@ -326,6 +326,40 @@ body {
 
 
 
+/* Pie de pagina */
+.main-footer {
+    background-color: black;
+    /* Relleno */
+    padding: 32px;
+    /* salto de linea */
+    margin-top: 48px;
+}
+/* Trabajamos aqui en la parte de centrar ls <li> que teng la <ul> , quitrle el dise;o de las vinetas */
+.main-footer__links{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+/* Trabajamos en la parte de los <li>  le definimos display para que se alinien todos los <li> */
+.main-footer__link {
+    display: inline-block;
+    margin: 0 16px;
+
+}
+/* Para dare color alos textos del <li> */
+.main-footer__link a {
+    color:white; 
+    text-decoration: none;
+}
+.main-footer__link a:hover,
+.main-footer__link a:active{
+    color: #ccc;
+}
+
+
+
+
 
 /* Cambiar la primera letra del parrafo <p> usando pseuco elements */
 /* p::first-letter {
