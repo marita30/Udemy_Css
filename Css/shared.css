@@ -1,0 +1,199 @@
+/* SelectorUniversal--se usa para restablecer todos los elementos para que tengan un comportamiento determinado en esta caso el box-sizing */
+* {
+    box-sizing: border-box;
+}
+
+
+/* body */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+
+
+
+
+/* classe de la etiqueta header  para el nav*/
+.main-header{
+    background-image: linear-gradient(to bottom right,#F761A1, #8C1BAB);
+    width: 100%;
+    padding: 8px 16px;
+}
+
+
+
+
+/* combinators-- solo va agarrar el primer div que contiene la etiqueta <a> del header */
+.main-header > div {
+    display: inline-block;
+    /* Para alinear la etiqueta <a> con los <li> */
+    vertical-align: middle;
+}
+
+
+
+
+/* Agregando dise;o a la etiqueta <a>  Uhost*/
+.main-header__brand {
+    color: black;
+    /* Eliminando el sudbrayado que aperece en el texto */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+
+
+
+
+/* Para poner en una sola linea la etiqueta <a> con la etiqueta <li>  en el nav*/
+.main-nav {
+    display: inline-block;
+    text-align: right;
+    width: calc(100% - 84px);
+    /* Para alinear la etiqueta <a> con los <li> */
+    vertical-align: middle;
+}
+
+
+
+
+
+/* Para reestablecer el relleno, margen y list-style(puntos de vi;etas) en el nav */
+.main-nav__items {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+
+
+
+/* Para el <li> */
+.main-nav__item {
+    display: inline-block;
+    /* Para margen(espacios) entre los <li> de izquierda a derecha, el primer valor se refiere a una parte superior e inferior y el segundo valor
+    es izquierdo y derecho*/
+    margin: 0 16px;
+}
+
+
+
+
+
+/* Para darle dise;o a los <li> */
+.main-nav__item a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    /* Relleno */
+    padding: 3px 0;
+   
+}
+
+
+
+
+
+/* .main-nav__item a::after {
+    /* para declarar un texto despues de cada <a> del nav 
+    content: " (link)";
+    color: red;
+} */
+
+
+
+
+
+
+/* Pseudo elements para cuando pase el mouse */
+.main-nav__item a:hover,
+.main-nav__item a:active{
+    color: white;
+    font-weight: bold;
+     /* Agregar borde */
+     border-bottom: 5px solid white;
+}
+
+
+
+
+
+
+/* Para el ultimo <li> Start Hosting */
+.main-nav__item--cta a{ 
+    color: white;
+    background-color: salmon;
+    /* 8px para a parte inferior e superior y 16px para la derecha y izquierda */
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+.main-nav__item--cta a:hover,
+.main-nav__item--cta a:active{
+    color: black;
+    background-color: blanchedalmond;
+    border: none;
+}
+
+
+
+
+/* Pie de pagina */
+.main-footer {
+    background-color: black;
+    /* Relleno */
+    padding: 32px;
+    /* salto de linea */
+    margin-top: 48px;
+}
+/* Trabajamos aqui en la parte de centrar ls <li> que teng la <ul> , quitrle el dise;o de las vinetas */
+.main-footer__links{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+/* Trabajamos en la parte de los <li>  le definimos display para que se alinien todos los <li> */
+.main-footer__link {
+    display: inline-block;
+    margin: 0 16px;
+
+}
+/* Para dare color alos textos del <li> */
+.main-footer__link a {
+    color:white; 
+    text-decoration: none;
+}
+.main-footer__link a:hover,
+.main-footer__link a:active{
+    color: #ccc;
+}
+
+
+
+
+
+/* Para lso botones de cada plans */
+.button{
+    background-color: salmon;
+    color: white;
+    /* Hereda la font-family del body */
+    font: inherit;
+    border: 1.5px solid grey;
+    padding: 8px; 
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button:hover,
+.button:active{
+    background-color: white;
+    color: salmon;
+}
+/* Para quitar el borde azul cuando le das click al boton */
+.button:focus{
+    outline: none;
+}
