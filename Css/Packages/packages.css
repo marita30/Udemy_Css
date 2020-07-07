@@ -39,8 +39,14 @@ main{
     color: black;
     font-size: 20px;
     background-color: white;
+
 }
 
+/* Para utilizar bien el float */
+.clearfix{
+    /* borra flota en ambos lados , izquierdo y derecho, cada elemento que venga despues de este respatara el espacio del otro. */
+    clear: both;
+}
 
 
 /* Para los id de cada packages de los section */
@@ -49,6 +55,11 @@ main{
 }
 #free{
     background-color: rgba(255, 192, 203, 0.774);
+    /* Mover a la derecha */
+    float: right;
+    border-right: none;
+    border-left: 4px solid purple;
+    text-align:right;
 }
 #premium{
     background-color: rgba(250, 128, 114, 0.774);
