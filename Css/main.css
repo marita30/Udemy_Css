@@ -16,6 +16,13 @@
     
 }
 
+/* Para centrar los <article> */
+.plan__list{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
 
 /* Para leer las classes que esta en el segundo h1 del html */
 .section-title{
