@@ -18,6 +18,8 @@ body {
 .main-header{
     background-image: linear-gradient(to bottom right,#F761A1, #8C1BAB);
     width: 100%;
+    /* Posicion fija */
+    position: fixed;
     padding: 8px 16px;
 }
 
