@@ -10,6 +10,8 @@ main{
     width: 100%;
     height: 100%;
     position: fixed;
+     /* Posicionamiento del eje z , esto va ayudarnos a colocar la imagen detras de los packages */
+     z-index: -1;
 
 }
 
