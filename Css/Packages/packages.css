@@ -4,6 +4,8 @@ main{
 
 
 
+
+
 /* AGregarle imagen de fondo al <body><div> */
 .background{
     background: url("../images/plans-background.jpg");
@@ -18,6 +20,9 @@ main{
 
 
 
+
+
+
 /* Para los estilos de las section */
 .packages{
     margin: 16px 0;
@@ -25,6 +30,8 @@ main{
     border: 4px solid purple;
     border-left: none;
     width: 70%;
+    /* Para el packages__badge */
+    position: relative;
 }
 /* Para poner otros estilos cuando pase el cursor en los section */
 .packages:hover,
@@ -40,6 +47,15 @@ main{
     display: block;
     padding: 32px;
 }
+/* Para el nuevo <h1> que agregamos <section id="plus"> */
+.packages__badge{
+    /* Posicion absoluta */
+    position: absolute;
+    top: 0;
+    left: 900px;
+    margin: 20px;
+}
+
 /* Para los <h1> de los section */
 .packages-title{
     color: black;
@@ -59,11 +75,20 @@ main{
 
 }
 
+
+
+
+
+
 /* Para utilizar bien el float */
 .clearfix{
     /* borra flota en ambos lados , izquierdo y derecho, cada elemento que venga despues de este respatara el espacio del otro. */
     clear: both;
 }
+
+
+
+
 
 
 /* Para los id de cada packages de los section */
