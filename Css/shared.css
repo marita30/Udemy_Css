@@ -20,8 +20,11 @@ body {
     width: 100%;
     /* Posicion fija */
     position: fixed;
-    
+    top:0;
+    left: 0;
     padding: 8px 16px;
+     /* Posicionamiento del eje z , esto va ayudarnos a colocar la el nav adelante del packages */
+    z-index: 1;
 }
 
 
