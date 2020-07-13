@@ -31,19 +31,27 @@ body {
 
 
 
-/* Jugando con el posicionamiento del <di> child-1 */
-.parent .child-1{
+/* Jugando con el posicionamiento del <di> child-1  entendiendo el position:fixed*/
+/* .parent .child-1{
     /* Posicion fija */
-    position: fixed;
-    width: 400px;
+    /* position: fixed;
+    width: 400px; */
     /* POsicionamiento */
     /* bottom: 0; */
-    top: 0; 
+    /* top: 0;  */
     /* Para hcaerlo a la izquierda */
-    left: 0;  
-    margin: 0;
+    /* left: 0;   */
+    /* margin: 0; */
     /* Ancho */
-    width: 100%;
+    /* width: 100%; */
     /* Para darle al nav el border de la derecha */
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
+/* } */ 
+
+/* Jugando con el posicionamiento del <di> child-1   Entendiendo el position:relative */
+.parent .child-1{
+  position: relative;
+  top:50px;
+  left: 50px;
+
 }
