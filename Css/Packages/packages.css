@@ -52,8 +52,13 @@ main{
     /* Posicion absoluta */
     position: absolute;
     top: 0;
-    left: 900px;
+    right: 0;
     margin: 20px;
+    font-size: 12px;
+    color: white;
+    background-color: brown;
+    /* Relleno */
+    padding: 8px;
 }
 
 /* Para los <h1> de los section */
