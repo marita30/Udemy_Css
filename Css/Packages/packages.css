@@ -47,6 +47,10 @@ main{
     display: block;
     padding: 32px;
 }
+
+
+
+
 /* Para el nuevo <h1> que agregamos <section id="plus"> */
 .packages__badge{
     /* Posicion absoluta */
@@ -60,6 +64,10 @@ main{
     /* Relleno */
     padding: 8px;
 }
+
+
+
+
 
 /* Para los <h1> de los section */
 .packages-title{
