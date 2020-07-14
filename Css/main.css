@@ -10,6 +10,8 @@
     height: 528px;
     /* Relleno */
     padding: 10px; 
+    /* Position */
+    position: relative;
     /* border: 5px purple solid;  */
     /* margen top para dar espacio del <h1> get the freedom you deserve con el nav*/
     margin-top: 43px; 
@@ -17,12 +19,15 @@
 }
 /* Combinators multiples selectors */
 #product-overview h1 {
-    color:white;
+    color:black;
     font-family: sans-serif;
     font-weight: bold;
     /* Posicionamiento del <h1> */
     position: absolute;
-    top:200px;
+    bottom: 10px;
+    left: 50px;
+    /* top:450px;
+    left: 50px; */
 
 }
 
