@@ -11,10 +11,25 @@
     /* Relleno */
     padding: 10px; 
     /* border: 5px purple solid;  */
-    /* margen para dar espacio */
-   /*  margin: 10px; */ 
+    /* margen top para dar espacio del <h1> get the freedom you deserve con el nav*/
+    margin-top: 43px; 
     
 }
+/* Combinators multiples selectors */
+#product-overview h1 {
+    color:white;
+    font-family: sans-serif;
+    font-weight: bold;
+    /* Posicionamiento del <h1> */
+    position: absolute;
+    top:200px;
+
+}
+
+
+
+
+
 
 /* Para centrar los <article> */
 .plan__list{
@@ -22,6 +37,10 @@
     margin: auto;
     text-align: center;
 }
+
+
+
+
 
 
 /* Para leer las classes que esta en el segundo h1 del html */
@@ -33,12 +52,6 @@
     
 }
 
-/* Combinators multiples selectors */
-#product-overview h1 {
-    color: black;
-    font-family: sans-serif;
-
-}
 
 
 
