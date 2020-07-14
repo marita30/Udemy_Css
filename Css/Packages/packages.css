@@ -53,7 +53,7 @@ main{
 
 /* Para el nuevo <h1> que agregamos <section id="plus"> */
 .packages__badge{
-    /* Posicion absoluta */
+    /* Posicion absoluta  para agregar al <h1> en la posicion de la derecha como una insignia*/
     position: absolute;
     top: 0;
     right: 0;
