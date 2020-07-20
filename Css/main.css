@@ -3,7 +3,9 @@
 /* Para leer los id */
 #product-overview {
 
-    background: url("freedom.jpg");
+    background-image: url("freedom.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
     /* Ancho */
     width: 100%;
     /* Alto */
