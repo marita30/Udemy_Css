@@ -194,6 +194,7 @@
     border-radius: 50%;
     /* Centrara el circulo */
     margin: auto;
+    padding: 20px;
 }
 /* Para el diseño de los parrafos que estan dentro de los <li> */
 .key-feature__description{
