@@ -3,7 +3,9 @@
 /* Para leer los id */
 #product-overview {
     /* La posicion viene primero, de segundo los valores de tama;o, de tercero va repeat, de cuarto origin y de quinto clip  */
-    /* background: url("images/freedom.jpg") 0%/cover no-repeat border-box; */
+    background: linear-gradient(to top, rgba(80,68,18,0.6) 10%, transparent), 
+                url("images/freedom.jpg")  0%/cover no-repeat border-box,
+                #F761A1; 
    /*  background-image: url("freedom.jpg");
     background-size: cover;
     background-position: 0%; */
@@ -12,7 +14,7 @@
     /* Recorte de image */
   /* background-clip:;*/
  /*  background-image: linear-gradient(to  /* bottom *//* left bottom */ /* left top, red 70%, blue 60%) ; */
- background-image: radial-gradient(circle /* 100px */ /* farthest-side */ /* closest-corner */ at top left, red 70%, blue 30%, green);
+ /* background-image: radial-gradient(circle /* 100px */ /* farthest-side */ /* closest-corner */ /* at top left, red 70%, blue 30%, green); */ 
     /* DEfinir como se compartaria el deslazamiento en un contenedor que tienen un imagen de fondo */
    /*  background-attachment: ; */
     /* Ancho */
@@ -26,8 +28,11 @@
     /* border: 5px purple solid;  */
     /* margen top para dar espacio del <h1> get the freedom you deserve con el nav*/
     margin-top: 43px; 
-    
-}
+}   
+
+
+
+
 /* Combinators multiples selectors */
 #product-overview h1 {
     color:black;
