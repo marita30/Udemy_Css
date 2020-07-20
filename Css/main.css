@@ -2,14 +2,15 @@
 
 /* Para leer los id */
 #product-overview {
-
-    background-image: url("freedom.jpg");
+    /* La posicion viene primero, de segundo los valores de tama;o, de tercero va repeat, de cuarto origin y de quinto clip  */
+    background: url("freedom.jpg") 0%/cover no-repeat border-box;
+   /*  background-image: url("freedom.jpg");
     background-size: cover;
-    background-position: 0%;
-    background-repeat: no-repeat;
-    background-origin: border-box;
+    background-position: 0%; */
+   /*  background-repeat: no-repeat;
+    background-origin: border-box; */
     /* Recorte de image */
-    background-clip: border-box;
+  /* s */
     /* DEfinir como se compartaria el deslazamiento en un contenedor que tienen un imagen de fondo */
    /*  background-attachment: ; */
     /* Ancho */
@@ -17,8 +18,7 @@
     /* Alto */
     height: 790px;
     /* Relleno */
-    padding: 10px; 
-    border: 5px dashed red;
+    padding: 10px;  
     /* Position */
     position: relative;
     /* border: 5px purple solid;  */
