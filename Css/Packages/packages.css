@@ -8,7 +8,11 @@ main{
 
 /* AGregarle imagen de fondo al <body><div> */
 .background{
-    background: url("../images/plans-background.jpg");
+    background: url("../images/plans-background.jpg") center/cover;
+    /* Filter */
+    /* Lo pone en gris la imagen */
+    filter:grayscale(100%);
+    
     width: 100%;
     height: 100%;
     position: fixed;
