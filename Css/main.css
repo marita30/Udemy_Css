@@ -11,7 +11,8 @@
     background-origin: border-box; */
     /* Recorte de image */
   /* background-clip:;*/
-  background-image: linear-gradient(to  /* bottom *//* left bottom */ left top, red 70%, blue 60%) ;
+ /*  background-image: linear-gradient(to  /* bottom *//* left bottom */ /* left top, red 70%, blue 60%) ; */
+ background-image: radial-gradient(circle /* 100px */ /* farthest-side */ /* closest-corner */ at top left, red 70%, blue 30%, green);
     /* DEfinir como se compartaria el deslazamiento en un contenedor que tienen un imagen de fondo */
    /*  background-attachment: ; */
     /* Ancho */
