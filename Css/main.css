@@ -7,12 +7,18 @@
     background-size: cover;
     background-position: 0%;
     background-repeat: no-repeat;
+    background-origin: border-box;
+    /* Recorte de image */
+    background-clip: border-box;
+    /* DEfinir como se compartaria el deslazamiento en un contenedor que tienen un imagen de fondo */
+   /*  background-attachment: ; */
     /* Ancho */
     width: 100%;
     /* Alto */
     height: 790px;
     /* Relleno */
     padding: 10px; 
+    border: 5px dashed red;
     /* Position */
     position: relative;
     /* border: 5px purple solid;  */
