@@ -4,12 +4,13 @@
 #product-overview {
 
     background-image: url("freedom.jpg");
-    background-size: contain;
+    background-size: cover;
+    background-position: 0%;
     background-repeat: no-repeat;
     /* Ancho */
     width: 100%;
     /* Alto */
-    height: 528px;
+    height: 790px;
     /* Relleno */
     padding: 10px; 
     /* Position */
