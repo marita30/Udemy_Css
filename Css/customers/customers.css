@@ -1,7 +1,7 @@
 .testimonial {
     /* Utilizando rem y em que es para el size de los fonts , 1 em es igual a 16px */
     font-size: 1.2em;
-    margin: 48px 0;
+    margin: 3rem 0;
   }
 .testimonial__list {
     width: 80%;
@@ -10,7 +10,7 @@
 /* El primer testimonio tenga un margen superior y el segundo no. */
   .testimonial:first-of-type {
       /* Dar espacio de la imagen con el nav */
-    margin-top: 96px;
+    margin-top: 6rem;
   }
 
 
@@ -45,7 +45,7 @@
   /* El div que envuelve los <h1> <h2> <a> y <p> */
   .testimonial__info {
     text-align: right;
-    padding: 14px;
+    padding: 0.9rem;
     display: inline-block;
     vertical-align: middle;
     width: 30%;
@@ -69,7 +69,7 @@
 
   /* H1 */
   .testimonial__name {
-    margin: 3px;
+    margin: 0.2rem;
     color: purple;
     font-size: 2rem;
   }
@@ -109,7 +109,7 @@
 
   /* <p> */
   .testimonial__text {
-    margin: 3px;
+    margin: 0.2rem;
   }
   
   
