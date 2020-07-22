@@ -27,7 +27,8 @@
     position: relative;
     /* border: 5px purple solid;  */
     /* margen top para dar espacio del <h1> get the freedom you deserve con el nav*/
-    margin-top: 43px; 
+   /*  margin-top: 43px;  */
+   margin-top: 2.75rem;
 }   
 
 
@@ -81,9 +82,11 @@
     background-color: pink;
     text-align: center;
     /* Relleno */
-    padding: 16px;
+    /* padding: 16px; */
+    padding: 1rem;
     /* Espacio entre los background */
-    margin: 10px;
+   /*  margin: 10px; */
+     margin: 0.5rem;
     /* Para que todos esten alineados  */
     display: inline-block;
     width: 30%;
@@ -106,7 +109,8 @@
 .plan__annotacion{
     background-color: white;
     color: salmon;
-    padding: 8px;
+   /*  padding: 8px; */
+    padding: 0.5rem;
     box-shadow: 3px 3px 3px 3px rgb(0,0,0,0.5);
     border-radius: 8px;
 }
@@ -133,7 +137,8 @@
     padding: 0;
 }
 .plan__features li{
-    margin:8px 0;
+    /* margin:8px 0; */
+    margin: 0.5rem 0;
 }
 
 
@@ -162,12 +167,15 @@
 /* Para la nueva section que tiene el id=key-features */
 #key-features{
     background-image: linear-gradient(to bottom right,#F761A1, #8C1BAB);
-    margin-top: 80px;
-    padding: 16px;
+    /*   margin-top: 80px; */
+     margin-top: 5rem;
+    /*   padding: 16px; */
+    padding: 1rem;
 }
 #key-features .section-title{
     color: white;
-    margin: 32px;
+    /* margin: 32px; */
+    margin: 2rem;
 }
 /* Para los <ul> de la nueva section id+key-features */
 .key-feature__list{
@@ -194,14 +202,16 @@
     border-radius: 50%;
     /* Centrara el circulo */
     margin: auto;
-    padding: 20px;
+    /* padding: 20px; */
+    padding: 1.5rem;
 }
 /* Para el diseño de los parrafos que estan dentro de los <li> */
 .key-feature__description{
     text-align: center;
     font-weight: bold;
     color: white;
-    font-size: 20px;
+   /*  font-size: 20px; */
+   font-size: 1.2rem;
 }
 
 
