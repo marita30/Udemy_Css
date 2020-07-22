@@ -1,5 +1,6 @@
 .testimonial {
-    font-size: 20px;
+    /* Utilizando rem y em que es para el size de los fonts , 1 em es igual a 16px */
+    font-size: 1.2em;
     margin: 48px 0;
   }
 .testimonial__list {
@@ -70,6 +71,7 @@
   .testimonial__name {
     margin: 3px;
     color: purple;
+    font-size: 2rem;
   }
 
 
@@ -79,7 +81,9 @@
   /* H2 */
   .testimonial__subtitle {
     margin: 0;
-    font-size: 18px;
+    /* Aqui utilizamos rem en vez de em, porque lo que hace em es que hereda lo em de los demas elementos y por ende se multiplica los px, para evitar ese problema
+    se usa rem. */
+    font-size: 1.1rem;
     color: #ccc;
   }
   
