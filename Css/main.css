@@ -4,7 +4,7 @@
 #product-overview {
     /* La posicion viene primero, de segundo los valores de tama;o, de tercero va repeat, de cuarto origin y de quinto clip  */
     background: linear-gradient(to top, rgba(80,68,18,0.6) 10%, transparent), 
-                url("images/freedom.jpg")  0%/cover no-repeat border-box,
+                url("images/freedom.jpg")  left 0% bottom 70%/cover no-repeat border-box,
                 #F761A1; 
    /*  background-image: url("freedom.jpg");
     background-size: cover;
@@ -18,9 +18,9 @@
     /* DEfinir como se compartaria el deslazamiento en un contenedor que tienen un imagen de fondo */
    /*  background-attachment: ; */
     /* Ancho */
-    width: 100%;
+    width: 100vw;
     /* Alto */
-    height: 790px;
+    height: 55vh;
     /* Relleno */
     /* padding: 10px;  */ 
     /* Position */
