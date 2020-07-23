@@ -21,7 +21,7 @@ body {
 /* Para agregar un telon de fondo transparente en el div con la classe backdrop */
 .backdrop{
     position: fixed;
-    display: none;
+   /*  display: none; */
     top: 0;
     left: 0;
     z-index: 100;
