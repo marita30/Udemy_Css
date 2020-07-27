@@ -36,17 +36,47 @@
 
 /* Combinators multiples selectors */
 #product-overview h1 {
-    color:black;
+    color:white;
     font-family: sans-serif;
     font-weight: bold;
     /* Posicionamiento del <h1> */
     position: absolute;
     bottom: 5%;
     left: 3%;
+    font-size: 1.6rem;
     /* top:450px;
     left: 50px; */
-
 }
+/* Media querys para el dedign resposive mobile */
+@media (min-width: 30rem) {
+    #product-overview {
+        height: 70vh;
+        background-position: 20% 25%;
+    }
+
+
+    #product-overview h1 {
+        font-size: 2rem;
+       
+    }
+}
+
+
+
+
+
+
+/* Para leer las classes que esta en el segundo h1 del html */
+.section-title{
+    color: black;
+    text-align: center;
+    /* Singnifica que herada el estilo que letra que se ha puesto en el body */
+    /* font-family: inherit; */
+    
+}
+
+
+
 
 
 
@@ -63,16 +93,6 @@
 
 
 
-
-
-/* Para leer las classes que esta en el segundo h1 del html */
-.section-title{
-    color: black;
-    text-align: center;
-    /* Singnifica que herada el estilo que letra que se ha puesto en el body */
-    /* font-family: inherit; */
-    
-}
 
 
 
