@@ -27,12 +27,21 @@ var mobileNav = document.querySelector('.mobile-nav');
       mobileNav.classList.remove('open');
         closeModal();
     });
-    modalNoButton.addEventListener('click', closeModal);
+
+       /* Lo envolvemos en u if para que funcione en los otros idex.html */
+    if (modalNoButton) {
+        modalNoButton.addEventListener('click', closeModal);
+    }
+    
 
     function closeModal() {
        /*  backdrop.style.display = "none";
         modal.style.display = "none"; */
-        modal.classList.remove('open');
+        /* Lo envolvemos en u if para que funcione en los otros idex.html */
+        if (modal) {
+            modal.classList.remove('open');
+        }
+        
         backdrop.classList.remove('open');
         
     };
