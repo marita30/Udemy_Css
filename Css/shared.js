@@ -10,29 +10,39 @@ var mobileNav = document.querySelector('.mobile-nav');
     /* Para los botones de los packages  */
     for (var i = 0; i < selectPlanButtons.length; i++) {
         selectPlanButtons[i].addEventListener('click', function() {
-            modal.style.display = 'block';
-            backdrop.style.display = 'block';
+            /* modal.style.display = 'block';
+            backdrop.style.display = 'block'; */
+         /*    modal.className = 'open';   */ /* Esto realmente sobreescribira la lista completa de clases. */
+         
+         /* classList es un objeto que proporciona algunos metodos auxiliares  */
+         modal.classList.add('open');
+         backdrop.classList.add('open');
         });
     }
 
 
     /* Para cuando no le de click en el botton NO */
     backdrop.addEventListener('click', function() {
-        mobileNav.style.display = "none";
+      /*   mobileNav.style.display = "none"; */
+      mobileNav.classList.remove('open');
         closeModal();
     });
     modalNoButton.addEventListener('click', closeModal);
 
     function closeModal() {
-        backdrop.style.display = "none";
-        modal.style.display = "none";
+       /*  backdrop.style.display = "none";
+        modal.style.display = "none"; */
+        modal.classList.remove('open');
+        backdrop.classList.remove('open');
         
     };
 
     /* Botton del nav, para cerrar el navegador lateral cuando hacemos click en el fondo */
     toggleButton.addEventListener('click', function() {
-        mobileNav.style.display = 'block';
-        backdrop.style.display = 'block';
+       /*  mobileNav.style.display = 'block';
+        backdrop.style.display = 'block'; */
+        mobileNav.classList.add('open');
+        backdrop.classList.add('open');
 
     });
 
