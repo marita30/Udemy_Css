@@ -333,3 +333,9 @@ body {
 }
 
 
+
+/* Para abrir el telon */
+.open{
+    display: block !important;
+}
+
