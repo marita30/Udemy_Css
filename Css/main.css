@@ -229,12 +229,12 @@
 
 }
 /* Para los <li> que estan dentro del <ul> */
-.key-feature{
-    display: inline-block;
-    width: 30%;
+/* .key-feature{ */
+    /* display: inline-block; */
+    /* width: 30%; */
     /* Para que los textos esten alineados en la parte superior */
-    vertical-align: top;
-}
+    /* vertical-align: top; */
+/* } */
 /* Para los <div> de la class image , para hacer la figura de un circulo en cada <li>*/
 .key-feature__image{
     background: #ffcede;
@@ -254,6 +254,19 @@
     color: white;
    /*  font-size: 20px; */
    font-size: 1.2rem;
+}
+
+
+
+@media(min-width: 42.5rem){
+    /* Para los <li> que estan dentro del <ul> */
+.key-feature{
+    display: inline-block;
+    width: 30%;
+    max-width: 20rem;
+    /* Para que los textos esten alineados en la parte superior */
+    vertical-align: top;
+}
 }
 
 
