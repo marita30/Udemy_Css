@@ -55,7 +55,7 @@
 
 
 /* Media querys para el dedign resposive mobile, 30rem son 480px */
-@media (min-width: 30rem) {
+@media (min-width: 30rem) and (min-height:60rem/* orientation: portrait */) {
     #product-overview {
         height: 70vh;
         background-position: 20% 25%;
@@ -159,7 +159,7 @@
 
 
 /* 43 rem = 688px */
-@media (min-width: 43rem) {
+@media (min-width: 43rem) /* and (orientation: landscape) */ {
 /* Para centrar los <article> */
     .plan__list{ 
         width: 100%;
