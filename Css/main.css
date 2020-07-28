@@ -93,11 +93,12 @@
 
 
 /* Para centrar los <article> */
-.plan__list{
-    width: 80%;
-    margin: auto;
-    text-align: center;
-}
+/* .plan__list{ */
+    /*   width: 80%; */
+   /*  width: 100%; */
+   /*  margin: auto; */
+   /*  text-align: center; */
+/* } */
 
 
 
@@ -115,12 +116,13 @@
     padding: 1rem;
     /* Espacio entre los background */
    /*  margin: 10px; */
-     margin: 0.5rem;
+     margin: 0.5rem 0;
     /* Para que todos esten alineados  */
-    display: inline-block;
-    width: 30%;
+  /*   display: inline-block; */
+   /*  width: 30%; */
+   width: 100%;
     /* Para alinear los background */
-    vertical-align: middle;
+  /*   vertical-align: middle; */
 }
 
 
@@ -129,7 +131,7 @@
     background-color: salmon;
     color: white;
     /* Para establecer sombra, los tres primeros 0 son el color negor y el umtimo 0.5 le decimos que tienen una transparencia del 50% y si es 0 es totalmente transparente */
-    box-shadow: 3px 3px 3px 3px rgb(0,0,0,0.5);
+    /* box-shadow: 3px 3px 3px 3px rgb(0,0,0,0.5); */
 }
 
 
