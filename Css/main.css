@@ -68,7 +68,7 @@
     }
 }
 
-/* Media querys para el dedign resposive mobile, 30rem son 480px */
+/* Media querys para el dedign resposive mobile, 60rem son 960px */
 @media (min-width: 60rem) {
     #product-overview {
         height: 70vh;
