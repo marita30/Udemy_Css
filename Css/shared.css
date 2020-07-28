@@ -126,11 +126,12 @@ body {
 
 /* Para poner en una sola linea la etiqueta <a> con la etiqueta <li>  en el nav*/
 .main-nav {
-    display: inline-block;
-    text-align: right;
-    width: calc(100% - 44px);
+   /*  display: inline-block; */
+    display: none;
+  /*   text-align: right;
+    width: calc(100% - 44px); */
     /* Para alinear la etiqueta <a> con los <li> */
-    vertical-align: middle;
+   /*  vertical-align: middle; */
 }
 
 
@@ -226,7 +227,13 @@ body {
     /* SI se pasa de 43 rem que no se visualize el botton de lo contrario que se visualize */
     .toggle-button{
         display: none;
+    }
 
+    .main-nav{
+        display: inline-block;
+        text-align: right;
+        width: calc(100% - 44px);
+        vertical-align: middle;
     }
 }
 
