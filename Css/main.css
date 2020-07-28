@@ -47,8 +47,29 @@
     /* top:450px;
     left: 50px; */
 }
+
+
+
+
+
+
+
 /* Media querys para el dedign resposive mobile, 30rem son 480px */
 @media (min-width: 30rem) {
+    #product-overview {
+        height: 70vh;
+        background-position: 20% 25%;
+    }
+
+
+    #product-overview h1 {
+        font-size: 2rem;
+       
+    }
+}
+
+/* Media querys para el dedign resposive mobile, 30rem son 480px */
+@media (min-width: 60rem) {
     #product-overview {
         height: 70vh;
         background-position: 20% 25%;
