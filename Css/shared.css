@@ -261,9 +261,10 @@ body {
 }
 /* Trabajamos en la parte de los <li>  le definimos display para que se alinien todos los <li> */
 .main-footer__link {
-    display: inline-block;
- /*    margin: 0 16px; */
-    margin: 0 1rem;
+    display: block;
+    /*    margin: 0 16px; */
+   /*  margin: 0 1rem; */
+   margin: 1rem 0;
 
 }
 /* Para dare color alos textos del <li> */
@@ -358,3 +359,13 @@ body {
     display: block !important;
 }
 
+
+
+@media(min-width: 43rem) {
+    /* Trabajamos en la parte de los <li>  le definimos display para que se alinien todos los <li> */
+    .main-footer__link {
+        display: inline-block;
+        margin:  0 1rem;
+
+    }
+}
