@@ -257,8 +257,8 @@
 }
 
 
-
-@media(min-width: 42.5rem){
+/* 43 rem = 688px */
+@media(min-width: 43rem){
     /* Para los <li> que estan dentro del <ul> */
 .key-feature{
     display: inline-block;
