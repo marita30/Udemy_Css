@@ -4,7 +4,7 @@
 #product-overview {
     /* La posicion viene primero, de segundo los valores de tama;o, de tercero va repeat, de cuarto origin y de quinto clip  */
     background: linear-gradient(to top, rgba(80,68,18,0.6) 10%, transparent), 
-                url("images/freedom.jpg")  left 0% bottom 70%/cover no-repeat border-box,
+                url("images/freedom.jpg")  center/cover no-repeat border-box,
                 #F761A1; 
    /*  background-image: url("freedom.jpg");
     background-size: cover;
@@ -68,19 +68,7 @@
     }
 }
 
-/* Media querys para el dedign resposive mobile, 60rem son 960px */
-@media (min-width: 60rem) {
-    #product-overview {
-        height: 70vh;
-        background-position: 20% 25%;
-    }
 
-
-    #product-overview h1 {
-        font-size: 2rem;
-       
-    }
-}
 
 
 
