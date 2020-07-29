@@ -11,3 +11,15 @@ main {
     font-size: 1.8rem;
     color: salmon;
 }
+
+
+
+/* Para la etiqueta <form> que tiene los label, input, select */
+.signup-form label,
+.signup-form input,
+.signup-form select {
+    display: block;
+    /* Margen(espacio) */
+    margin-top: 1rem;
+    width: 100%;
+}
