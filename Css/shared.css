@@ -16,6 +16,13 @@ body {
 
 
 
+/* Para el posicionamiento del footer */
+main{
+    min-height: calc(100vh - 3.5rem - 8rem);
+    margin-top: 3.5rem;
+}
+
+
 
 
 /* Para agregar un telon de fondo transparente en el div con la classe backdrop */
