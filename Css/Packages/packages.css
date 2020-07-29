@@ -140,3 +140,23 @@ main{
     color:white;
 }
 
+
+/* Para poner un max-width a los packages */
+@media(min-width: 43rem){
+    main {
+      margin: 3rem auto;
+      max-width: 1500px;
+    }
+    
+}
+
+/* Para poner un max-width a los packages */
+@media(min-width: 1500px){
+    .packages {
+      border-left: 4px solid purple;
+    }
+    
+    #free {
+        border-right: 4px solid purple;
+    }
+}
