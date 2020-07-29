@@ -55,7 +55,7 @@
 
 
 /* Media querys para el dedign resposive mobile, 30rem son 480px */
-@media (min-width: 30rem) and (min-height:60rem/* orientation: portrait */) {
+@media (min-width: 30rem) and (min-height:30rem/* orientation: portrait */) {
     #product-overview {
         height: 70vh;
         background-position: 20% 25%;
