@@ -1,0 +1,13 @@
+/* para datle espacion al signup-title */
+main {
+    padding-top: 2rem;
+}
+
+
+
+/* Para el <h1> del <main> */
+.signup-title{
+    text-align: center;
+    font-size: 1.8rem;
+    color: salmon;
+}
