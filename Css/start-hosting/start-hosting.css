@@ -46,6 +46,7 @@ main {
 .signup-form input[id*="terms"] + label {
     display: inline-block;
     width: auto;
+    vertical-align: bottom;
 }
 
 
@@ -64,10 +65,24 @@ el checkbox*/
 .signup-form input:focus,
 .signup-form select:focus {
     outline: none;
-    background-color: rgba(250, 128, 114, 0.384);
+    background: rgba(250, 128, 114, 0.384);
     border-color: purple;
+   
 }
 
+
+
+/* Para el desing del checkbox  osea a la cajita*/
+.signup-form input[type="checkbox"]{
+    border: 1px solid #ccc;
+    background: white;
+    width: 1rem;
+    height: 1rem;
+    /* Para eliminar el default design que lo pone el navegador */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
 
 
 
