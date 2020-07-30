@@ -23,3 +23,25 @@ main {
     margin-top: 1rem;
     width: 100%;
 }
+
+
+
+
+/* Para el checkbox  .signup-form input[type="checkbox"], usamos un selector [] que esto permite que todos los input que tengan el type="checkbox" se van a cambiar*/
+/*  ahora esto es que todos los elementos donde el atributo ID contiene el termino "Terms"*/
+.signup-form input[id*="terms"],
+/* Editara los label que esten en este input osea el label de la clase agree-terms */
+.signup-form input[id*="terms"] + label {
+    display: inline-block;
+    width: auto;
+}
+
+
+
+
+
+/* Para el button  se Sign Up*/
+.signup-form button[type="submit"] {
+    display: block;
+    margin-top: 2rem;
+}
