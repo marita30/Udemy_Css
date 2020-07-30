@@ -62,3 +62,9 @@ main {
 
 
 /* Para los dispositivos grandes */
+@media(min-width: 43rem) {
+    .signup-form {
+        margin: auto;
+        width: 30rem;
+    }
+}
