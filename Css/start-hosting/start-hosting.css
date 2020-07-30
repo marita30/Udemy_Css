@@ -53,16 +53,16 @@ main {
 
 
 /* Trabajando en los input y select */
-/* not()  le estamos diciendo que no debe apuntar a todas las entradas que no cumplen con el requisito que agreguemos en los (), por lo tanto aqui no va a tomar
-el checkbox*/
-.signup-form input:not([type="checkbox"]),
+.signup-form input,
 .signup-form select {
     border: 1px solid #ccc;
     padding: 0.2rem 0.5rem;
     font: inherit;
 }
 /* Eliminando el border azul que se pone cuando escribimos en ls input y select */
-.signup-form input:focus,
+/* not()  le estamos diciendo que no debe apuntar a todas las entradas que no cumplen con el requisito que agreguemos en los (), por lo tanto aqui no va a tomar
+el checkbox*/
+.signup-form input/* :not([type="checkbox"]) */:focus,
 .signup-form select:focus {
     outline: none;
     background: rgba(250, 128, 114, 0.384);
@@ -82,6 +82,11 @@ el checkbox*/
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
+}
+/* Usando el pseudo del checked */
+.signup-form input[type="checkbox"]:checked {
+    background: rgba(250, 128, 114, 0.384);
+    border-color: purple;
 }
 
 
