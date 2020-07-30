@@ -361,6 +361,15 @@ main{
 }
 
 
+/* apunta a cualquier elemento con la clase de button que tambien tenga un atributo deshabilitado */
+.button[disabled] {
+    cursor: not-allowed;
+    border-color: #a1a1a1;
+    background: #ccc;
+    color: #a1a1a1;
+}
+
+
 
 /* Para abrir el telon */
 .open{
