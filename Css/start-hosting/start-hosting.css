@@ -14,6 +14,18 @@ main {
 
 
 
+/* Design responsive mobile */
+.signup-form {
+    padding: 1rem;
+}
+.signup-form label {
+    font-weight: bold;
+}
+
+
+
+
+
 /* Para la etiqueta <form> que tiene los label, input, select */
 .signup-form label,
 .signup-form input,
@@ -45,3 +57,8 @@ main {
     display: block;
     margin-top: 2rem;
 }
+
+
+
+
+/* Para los dispositivos grandes */
