@@ -397,8 +397,15 @@ main{
 @media(min-width: 43rem) {
     /* Trabajamos en la parte de los <li>  le definimos display para que se alinien todos los <li> */
     .main-footer__link {
-        display: inline-block;
+       /*  display: inline-block; */
         margin:  0 1rem;
 
+    }
+
+    .main-footer__links{
+     
+        flex-direction: row;
+        justify-content: center;
+        /* text-align: center; */
     }
 }
