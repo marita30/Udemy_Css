@@ -60,17 +60,21 @@ main{
      padding: 0.5rem 1rem; 
      /* Posicionamiento del eje z , esto va ayudarnos a colocar la el nav adelante del packages */
     z-index: 1;
+    /* Agreando flexbox */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 
 
 
 /* combinators-- solo va agarrar el primer div que contiene la etiqueta <a> del header */
-.main-header > div {
-    display: inline-block;
+/* .main-header > div {
+    display: inline-block; */
     /* Para alinear la etiqueta <a> con los <li> */
-    vertical-align: middle;
-}
+   /*  vertical-align: middle; */
+/* } */
 
 
 
