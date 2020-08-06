@@ -274,14 +274,17 @@ main{
     list-style: none;
     margin: 0;
     padding: 0;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* text-align: center; */
 }
 /* Trabajamos en la parte de los <li>  le definimos display para que se alinien todos los <li> */
 .main-footer__link {
-    display: block;
+   /*  display: block; */
     /*    margin: 0 16px; */
    /*  margin: 0 1rem; */
-   margin: 1rem 0;
+   margin: 0.5rem 0;
 
 }
 /* Para dare color alos textos del <li> */
