@@ -19,6 +19,10 @@ body {
     padding: 10px;
     border: 5px solid black;
     display: flex;
+    flex-direction: row;
+    /* esto funciona para cuando legue a un ancho definido que no puedan alcanzar ls0s <div> children en una sola linea,
+    entonces hace que estos se desplieguen abajo.  */
+    flex-wrap: wrap;
   }
 
 .item-1 {
