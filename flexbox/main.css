@@ -26,6 +26,8 @@ body {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    /* Permite alinear contenido a lo largo del eje transversal */
+    align-content: center;
     /* flex-flow: row wrap; */
   }
 
