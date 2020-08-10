@@ -59,7 +59,7 @@ main{
   /*   padding: 8px 16px; */
      padding: 0.5rem 1rem; 
      /* Posicionamiento del eje z , esto va ayudarnos a colocar la el nav adelante del packages */
-    z-index: 1;
+    z-index: 60;
     /* Agreando flexbox */
     display: flex;
     align-items: center;
