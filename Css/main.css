@@ -284,16 +284,27 @@
 }
 
 
+
+
+
+
+
 /* 43 rem = 688px */
 @media(min-width: 43rem){
     /* Para los <li> que estan dentro del <ul> */
-.key-feature{
-    display: inline-block;
-    width: 30%;
-    max-width: 20rem;
-    /* Para que los textos esten alineados en la parte superior */
-    vertical-align: top;
-}
+    .key-feature{
+        /* display: inline-block; */
+        width: 30%;
+        max-width: 20rem;
+        /* Para que los textos esten alineados en la parte superior */
+       /*  vertical-align: top; */
+    }
+
+    .key-feature__list{
+        display: flex;
+        justify-content: center;
+
+    }
 }
 
 
