@@ -79,6 +79,8 @@ body {
     border: 5px solid black;
     margin: 10px;
     width: 350px;
+    /* Encogimiento flexible, reduce el ancho */
+    flex-shrink: 1;
     /*  Aumenta el ancho con 1*/
    /*  flex-grow: 1; */
 }
