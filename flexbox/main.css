@@ -25,9 +25,9 @@ body {
     entonces hace que estos se desplieguen abajo.  */
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     /* Permite alinear contenido a lo largo del eje transversal */
-    align-content: center;
+/*     align-content: center; */
     /* flex-flow: row wrap; */
   }
 
@@ -66,6 +66,8 @@ body {
     margin: 10px;
     width: 300px;
     height: 300px;
+    /* Para cambiar la posicion, ahora con el -1 estara de primero */
+    order: -1;
 }
 
 .item-5 {
@@ -84,4 +86,6 @@ body {
     border: 5px solid black;
     margin: 10px;
     width: 350px;
+
+    order: -2;
 }
