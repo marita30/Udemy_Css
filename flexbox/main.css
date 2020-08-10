@@ -79,6 +79,8 @@ body {
     border: 5px solid black;
     margin: 10px;
     width: 350px;
+    /*  Aumenta el ancho con 1*/
+   /*  flex-grow: 1; */
 }
 
 .item-6 {
@@ -88,6 +90,8 @@ body {
     border: 5px solid black;
     margin: 10px;
     width: 350px;
+      /*  No aumenta el ancho con 0*/
+     /*  flex-grow: 0; */
      /* Para cambiar la posicion, ahora con el -1 estara de primero */
    /*  order: -2; */
 }
