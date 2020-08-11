@@ -2,7 +2,7 @@
 
 _Creando un design propio para entender e ir conociendo las fuciones que nos brinda el css junto con el html, javascript._
 
-## Algunas Funciones esenciales que nos brinda Css y que hemos aprendido durante este curso. 🎁
+## Algunas Funciones esenciales que nos brinda Css y que hemos aprendido durante este curso.  📦
 
 ```
 * Margin ---> Permite dar un margen entre los elementos.
