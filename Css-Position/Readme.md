@@ -9,3 +9,6 @@ _Aqui en este pequeño proyecto vemos las diferentes valores que tiene el atribu
 * fixed ----> Esto nos ayuda a posicionar fijo un elemento.
 * Relative ----> Coloca un elemento en relacion con su posicion actual sin cambiar el design a su alrededor. se utiliza en conjunto con la position absolute.
 ```
+## Autor ✒️
+
+* **Maria Jose Chavarria** - *Frontend* - [marita30](https://github.com/marita30)
