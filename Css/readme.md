@@ -17,3 +17,7 @@ _Creando un design propio para entender e ir conociendo las fuciones que nos bri
 * text-shadow ----> Para dar sombra a los texto.
  
 ```
+
+## Autor ✒️
+
+* **Maria Jose Chavarria** - *Frontend* - [marita30](https://github.com/marita30)
