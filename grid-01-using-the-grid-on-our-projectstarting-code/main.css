@@ -1,5 +1,7 @@
 .container {
     margin: 20px;
+    /* Utilizando grid--- cuadricula, los hijos del padre <div> son los que heredan este comportamiento de la cuadricula. */
+    display: grid;
 }
 
 .el1 {
