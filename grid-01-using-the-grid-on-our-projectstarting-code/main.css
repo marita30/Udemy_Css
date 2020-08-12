@@ -2,12 +2,12 @@
     margin: 20px;
     /* Utilizando grid--- cuadricula, los hijos del padre <div> son los que heredan este comportamiento de la cuadricula. */
     display: grid;
-    height: 200px;
+    height: 500px;
     /* Agregando columnas y filas, en este caso agregmos tres columnas la primera de 200px, la segunda de 150px y la tercera de 20%  y la cuarta 1fr
     se refiere que dividira el espacio restante entre las demas columnas osea en este caso se resta los 200px - 20% y eso se divide la segundo columna 
     con la cuarta , pero la seguna va a tener mas porque le dividimos por 2fr*/
    /*  grid-template-columns: 200px  *//* 2fr */ /* 5rem 20%  auto *//* 1fr */
-    grid-template-rows: 5rem /* 2.5rem */ /* auto */ minmax(10px, 200px) ;
+    grid-template-rows: 5rem /* 2.5rem */ /* auto */ minmax(10px, auto) 100px ;
      /* Esto es para decir que se tiene que repeat 4 veces del ancho de 25% */
     grid-template-columns: repeat(4, 25% );
 }
@@ -18,6 +18,11 @@
 
 .el2 {
     background: rgba(255, 0, 0, 0.5);
+    grid-column-start: 1;
+    grid-column-end: -1;
+    grid-row-start: 2;
+    grid-row-end: span 1;
+    z-index: 10;
 }
 
 .el3 {
