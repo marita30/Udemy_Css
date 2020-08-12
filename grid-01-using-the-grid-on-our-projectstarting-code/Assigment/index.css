@@ -7,7 +7,7 @@ body {
     display: grid;
     margin: 20px;
     height: 100%;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: [col-1-start]1fr [col-1-end col-2-start] 3fr [col-2-end];
     grid-template-rows: 4.5rem auto 4.5rem;
 }
 
@@ -15,6 +15,9 @@ body {
 header {
     background-color: blue;
     color: whitesmoke;
+    /* Position */
+    grid-column-start: col-1-start;
+    grid-column-end: col-2-end;
 }
 
 main {
