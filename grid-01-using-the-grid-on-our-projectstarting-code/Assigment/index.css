@@ -33,4 +33,7 @@ aside{
 footer{
     background-color: purple;
     color: whitesmoke;
+     /* Position */
+     grid-column-start: col-1-start;
+     grid-column-end: col-2-end;
 }
