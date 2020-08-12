@@ -19,6 +19,11 @@
 
 .el3 {
     background: rgba(0, 128, 0, 0.5);
+    /* Posicionar, le decimos que comience de la linea 3 y termine en la linea 5 que esos numeros lo podemos ver en firebox del cuadro grid */
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
 }
 
 .el4 {
