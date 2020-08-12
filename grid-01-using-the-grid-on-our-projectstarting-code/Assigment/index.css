@@ -23,11 +23,18 @@ header {
 main {
     background-color: red;
     color: whitesmoke;
+     /* Position */
+     grid-column-start: col-2-start;
+     grid-column-end: span 1;
 }
 
 aside{
     background-color: green;
     color: whitesmoke;
+     /* Position */
+     grid-column-start: col-1-start;
+     grid-row-start: 2;
+     grid-row-end: span 1;
 }
 
 footer{
