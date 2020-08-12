@@ -23,8 +23,9 @@
 .el3 {
     background: rgba(0, 128, 0, 0.5);
     /* Posicionar, le decimos que comience de la linea 3 y termine en la linea 5 que esos numeros lo podemos ver en firebox del cuadro grid */
-    grid-column-start: 3;
-    grid-column-end: 5;
+    grid-column-start: 2;
+    /* Span 2 significa que termine de abarcar esa posicion hasta que llegue a dos celdas. */
+    grid-column-end: /* 5 */ span 3;
     grid-row-start: 1;
     grid-row-end: 3;
 }
