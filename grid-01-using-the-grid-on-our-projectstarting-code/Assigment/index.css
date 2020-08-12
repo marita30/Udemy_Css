@@ -1,0 +1,26 @@
+
+body {
+    display: grid;
+    margin: 20px;
+}
+
+
+header {
+    background-color: blue;
+    color: whitesmoke;
+}
+
+main {
+    background-color: red;
+    color: whitesmoke;
+}
+
+aside{
+    background-color: green;
+    color: whitesmoke;
+}
+
+footer{
+    background-color: purple;
+    color: whitesmoke;
+}
