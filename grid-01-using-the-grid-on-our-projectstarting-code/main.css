@@ -16,6 +16,8 @@
     grid-row-gap: 10px;
     /* Obtenemos aqui grid-template-rows y columns */
     grid-template-areas: "header  header header  header" "side side main main" "footer footer footer footer";
+    justify-content: stretch;
+    align-items: stretch;
 }
 
 .el1 {
