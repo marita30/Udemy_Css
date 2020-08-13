@@ -18,21 +18,25 @@
 
 .el2 {
     background: rgba(255, 0, 0, 0.5);
-    grid-column-start: 1;
-    grid-column-end: -1;
-    grid-row-start: row-2-start;
-    grid-row-end: span 1;
+    /* grid-column-start: 1;
+    grid-column-end: -1; */
+    /* column y row shorthands */
+    grid-column: 1 / -1;
+    grid-row: row-2-start / span 1;
+  /*   grid-row-start: row-2-start;
+    grid-row-end: span 1; */
     z-index: 10;
 }
 
 .el3 {
     background: rgba(0, 128, 0, 0.5);
     /* Posicionar, le decimos que comience de la linea 3 y termine en la linea 5 que esos numeros lo podemos ver en firebox del cuadro grid */
-    grid-column-start: 2;
+  /*   grid-column-start: 2; */
     /* Span 2 significa que termine de abarcar esa posicion hasta que llegue a dos celdas. */
-    grid-column-end: /* 5 */ span 3;
-    grid-row-start: /* 1 */ row-1-start;
-    grid-row-end: /* 3 */ row-2-end;
+    /* grid-column-end: */ /* 5 */ /* span 3; */
+   /*  grid-row-start: */ /* 1 */ /* row-1-start; */
+    /* grid-row-end */ /* row-2-end; */
+    grid-area: row-1-start / 2 / row-2-end / span 3;
 }
 
 .el4 {
